@@ -12,6 +12,6 @@ export default {
       type: 'number',
     },
   },
-  required: ['label'],
+  required: ['label', 'parentId'],
   additionalProperties: false,
 }
